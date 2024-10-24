@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.qrcode{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qrcode h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+img{
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+.input-label{
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+    font-size: 15px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.generate-button{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.generate-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.download-button{
+    background-color: green;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid green;
+}
+.download-button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+.footer{
+    margin-top: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: blue;
+}

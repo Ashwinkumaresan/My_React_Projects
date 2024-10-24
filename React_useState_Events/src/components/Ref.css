@@ -1,0 +1,29 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+table td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+table td:first-child{
+    font-weight: 600;
+}
+form{
+    margin-top: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.select_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+textarea{
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    text-align: center;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: blue;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+div h3{
+    font-size: 30px;
+    font-weight: 500;
+}

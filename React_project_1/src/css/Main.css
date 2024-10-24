@@ -1,0 +1,21 @@
+.Heading{
+    color: blue;
+}
+.code{
+    color: green;
+}
+.Student table{
+    border: 1px solid #ccc;
+    width: 300px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.Student table th,
+.Student table td{
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.Student table th{
+    width: 100px;
+}
