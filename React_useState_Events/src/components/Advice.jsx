@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./AdviceS.css"
 
 export const Advice = () => {
@@ -13,11 +13,23 @@ export const Advice = () => {
         SetAdvice(data.slip.advice);
         setCount(count+1)
     }
+    
+    useEffect(function () {
+      Getadvice();
+    }, []);
   return (
     <div>
         <h3> {advice} </h3>
         <button onClick={Getadvice}>Get Advice</button>
-        <p onClick={Getadvice}>Message count:{count}</p>
+        <Counter count={count} />
+        
     </div>
   )
+
+
+  function Counter(props){
+    return (
+      <p>Message count:{props.count}</p>
+      );
+  }
 }
