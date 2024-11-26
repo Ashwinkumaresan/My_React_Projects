@@ -47,20 +47,22 @@ body{
 }
 .data button{
   cursor: pointer;
-  margin: 15px 0;
+  margin: 10px 0;
   align-self: center;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background:transparent;
-  border: 3px solid white;
-  color: #00ff51;
+  background-color: blue;
+  border: 3px solid blue;
+  color: white;
   font-size: 15px;
+  margin-right: 10px;
 }
 .data button:hover{
-  background-color: #00ff51;
-  color: white;
-  border-color: #00ff51;
+  background-color: white;
+  color: blue;
+  border-color: blue;
+  font-weight: 500;
 }
 .result{
   width: 100%;
@@ -69,11 +71,20 @@ body{
   justify-content: center;
   flex-direction: column;
   background-color: #00ff51;
-  border-radius: 16px;
+  border-radius: 10px;
 }
 .result p{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   color: white;
-  margin: 10px;
+  margin: 10px 0px 05px 10px;
+}
+.error{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+input{
+  padding: 10px;
+  margin-top: 10px;
 }
